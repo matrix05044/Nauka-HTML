@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.conteiner {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+        "title title"
+        "subtitle subtitle"
+        "recipes recpies"
+        "img wrapper";
+}
+
+.content {
+    width: 100%;
+
+}
+
+header,
+main,
+.secondary-content {
+    display: grid;
+}
+
+.main-title {
+    grid-area: title;
+}
+
+.subtitle {
+    grid-area: subtitle;
+}
+
+.recipes {
+    grid-area: recipes;
+}
+
+.secondary-content_img {
+    grid-area: img;
+}
+
+.img-wrapper {
+    grid-area: wrapper;
+}
