@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="lesson.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>CSS Grid</title>
+</head>
+<body>
+   <header class="header">
+     <input class="search" placeholder="search...">
+     <div class="account"></div>
+   </header>
+   <div class="banner">
+     <img src="https://source.unsplash.com/random/400x200?v1">
+     <button class="banner__button">
+       Learn more
+     </button>
+     <button class="banner__button">
+       About us
+     </button>
+   </div>
+   <ul class="navigation">
+     <li>
+       <a href="#">
+         Forest
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Sea
+        </a>
+     </li>
+     <li>
+        <a href="#">
+          Mountains
+        </a>
+     </li>
+     <li>
+        <a href="#">
+          Beach
+        </a>
+     </li>
+   </ul>
+   <ul class="albums">
+      <li>
+        <figure>
+          <img src="https://source.unsplash.com/random/200x200?v1" alt="">
+          
+          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="https://source.unsplash.com/random/200x200?v2" alt="">
+          
+          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="https://source.unsplash.com/random/200x200?v3" alt="">
+          
+          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="https://source.unsplash.com/random/200x200?v4" alt="">
+          
+          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+        </figure>
+      </li>
+      <li>
+         <figure>
+           <img src="https://source.unsplash.com/random/200x200?v5" alt="">
+           
+           <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+         </figure>
+       </li>
+      <li>
+         <figure>
+           <img src="https://source.unsplash.com/random/200x200?v4" alt="">
+           
+           <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+         </figure>
+       </li>
+      <li>
+         <figure>
+           <img src="https://source.unsplash.com/random/200x200?v3" alt="">
+           
+           <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+         </figure>
+       </li>
+      <li>
+         <figure>
+           <img src="https://source.unsplash.com/random/200x200?v2" alt="">
+           
+           <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+         </figure>
+       </li>
+      <li>
+         <figure>
+           <img src="https://source.unsplash.com/random/200x200?v1" alt="">
+           
+           <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+         </figure>
+       </li>
+     </ul>
+   <style>
+     body {
+       display: grid;
+       grid-gap: 20px;
+     }
+     
+     .banner {
+       display: grid;
+       grid-template-areas: 
+         "img img cta1"
+         "img img cta2";
+
+       grid-gap: 20px;
+     }
+     
+     .banner img {
+       grid-area: img;
+       width: 100%;
+       object-fit: cover;
+     }
+     
+     .banner__button {
+       grid-area: cta1;
+       width: 100%;
+       min-height: 100px;
+     }
+     
+     .banner__button:last-child {
+       grid-area: cta2;
+     }
+     
+     .navigation {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(0, 300px));
+       justify-content: center;
+       grid-auto-rows: 100px;
+       grid-gap: 20px;
+     }
+     
+     .header {
+       display: grid;
+       grid-template-columns: auto auto;
+       justify-content: space-between;
+     }
+     
+     @media only screen and (max-width: 715px) {
+       .banner {
+         grid-template-areas: 
+            "img img img"
+            "cta1 cta1 cta1"
+            "cta2 cta2 cta2";
+       }
+     }
+   </style>
+</body>
+</html>

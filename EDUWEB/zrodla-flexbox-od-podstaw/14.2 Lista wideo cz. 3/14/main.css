@@ -1,0 +1,41 @@
+.video-section {
+  background: #fff;
+  padding: 16px;
+}
+
+.video-section_video-link {
+  color: #000;
+}
+
+.video-section_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-section_label-primary {
+  color: #111;
+  font-size: 16px;
+}
+
+.video-section_label-secondary,
+.video-section_play-all {
+  color: #606060;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.video-section_label-secondary .fas {
+  margin-right: 8px;
+}
+
+.video-section_label-secondary,
+.video-section_label-primary,
+.video-section_play-all {
+  height: 36px;
+  padding: 10px 16px;
+}
+
+.video-section_sort, 
+.video-section_filter {
+  display: none;
+}

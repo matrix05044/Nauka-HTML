@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="lesson.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>CSS Grid</title>
+</head>
+<body>
+   <div class="grid">
+     <div class="item item1">1</div>
+     <div class="item item2">2</div>
+     <div class="item item3">3</div>
+     <div class="item item4">4</div>
+     <div class="item item5">5</div>
+     <div class="item item6">6</div>
+     <div class="item item7">7</div>
+     <div class="item item8">8</div>
+   </div>
+   <style>
+     /**
+      min-content
+      max-content
+      auto-fit
+      auto-fill
+      auto
+      fit-content(limit)
+      minmax(minimum, maximum)
+      repeat(times, unit)
+     */
+
+     .grid {
+       display: grid;
+       grid-template-columns: fit-content
+     }
+   </style>
+</body>
+</html>

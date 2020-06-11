@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans',
+        Arial,
+        sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+::link {}
+
+.conteiner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.paralax {
+    background: url(assets/simple-house-01.jpg);
+    position: fixed;
+    width: 100%;
+    max-width: 1200px;
+    height: 720px;
+    z-index: -1;
+}
+
+.primary-content,
+.logo-wrapper,
+.nav-list {
+    display: flex;
+}
+
+.primary-content {
+    justify-content: space-between;
+
+}
+
+.title {
+    font-size: 2.2rem;
+    margin: 0 0 5px 0;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    margin: 0px;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.button-nav {
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.nav-list a:link,
+.nav-list a:visited {
+    color: black;
+
+}

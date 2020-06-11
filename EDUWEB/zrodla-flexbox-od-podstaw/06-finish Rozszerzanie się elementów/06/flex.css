@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.card {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  
+  flex-basis: 100px;
+  flex-grow: 0;
+  transition: flex-grow 0.3s ease-in-out;
+}
+
+.card:hover {
+  flex-grow:1;
+}

@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.card {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}

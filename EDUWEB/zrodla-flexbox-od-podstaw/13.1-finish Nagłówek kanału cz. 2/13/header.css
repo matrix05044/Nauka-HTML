@@ -1,0 +1,53 @@
+.channel-header_hero {
+  width: 100%;
+}
+
+.channel-header {
+  background-color: #fafafa;
+}
+
+.channel-header_details,
+.channel-header_nav {
+  padding: 0 100px;
+}
+
+.channel-header_avatar {
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.channel-header_details {
+  display: flex;
+  align-items: center;
+}
+
+.channel-header_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-header_name {
+  font-size: 24px;
+  font-weight: 400
+}
+
+.channel-header_subs-count {
+  font-size: 14px;
+  color: #606060;
+}
+
+.channel-header_subscribe {
+  margin-left: auto;
+  margin-right: 10px;
+  font-size: 14px;
+  color: rgba(17, 17, 17, 0.6);
+  background-color: #eeeeee;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.channel-header_bell {
+  font-size: 24px;
+  color: #909090;
+}

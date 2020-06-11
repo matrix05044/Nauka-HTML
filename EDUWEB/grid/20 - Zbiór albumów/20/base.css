@@ -1,0 +1,66 @@
+:root {
+  --orange: orange;
+  --green: yellowgreen;
+  --yellow: yellow;
+  --blue: aqua;
+  --purple: rebeccapurple;
+}
+
+@supports (display: grid) {
+  body {
+      display: grid;
+      grid-template-rows: 4rem 3rem auto;
+      grid-row-gap: 0.8rem;
+  }
+
+  .masthead {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      grid-column-gap: 2rem;
+  }
+
+  .boards-menu {
+      display: grid;
+      grid-template-columns: 9rem 18rem;
+      grid-column-gap: 0.8rem;
+  }
+
+  .user-settings {
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+      grid-column-gap: 0.8rem;
+  }
+
+  .board-controls {
+      display: grid;
+      grid-auto-flow: column;
+      grid-column-gap: 1rem;
+  }
+
+  .lists-container {
+      display: grid;
+      grid-auto-columns: 27rem;
+      grid-auto-flow: column;
+      grid-column-gap: 1rem;
+  }
+
+  .list {
+      display: grid;
+      grid-template-rows: auto minmax(auto, 1fr) auto;
+  }
+
+  .list-items {
+      display: grid;
+      grid-row-gap: 0.6rem;
+  }
+
+  .logo,
+  .list,
+  .list-items li,
+  .boards-btn,
+  .board-info-bar,
+  .board-controls .btn,
+  .user-settings-btn {
+      margin: 0;
+  }
+}

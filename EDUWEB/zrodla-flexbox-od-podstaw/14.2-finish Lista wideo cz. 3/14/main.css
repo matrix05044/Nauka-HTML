@@ -1,0 +1,94 @@
+.video-section {
+  background: #fff;
+  padding: 16px;
+}
+
+.video-section_video-link {
+  color: #000;
+}
+
+.video-section_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-section_label-primary {
+  color: #111;
+  font-size: 16px;
+}
+
+.video-section_label-secondary,
+.video-section_play-all {
+  color: #606060;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.video-section_label-secondary .fas {
+  margin-right: 8px;
+}
+
+.video-section_label-secondary,
+.video-section_label-primary,
+.video-section_play-all {
+  height: 36px;
+  padding: 10px 16px;
+}
+
+.video-section_sort, 
+.video-section_filter {
+  display: none;
+}
+
+.video-section_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.video-section_video-link {
+  display: flex;
+  width: 210px;
+  flex-direction: column;
+}
+
+.video-section_thumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  height: 117px;
+  background-image: url('https://place-hold.it/210x117/696e9e/ffffff&text=AwesomeTutorial')
+}
+
+.video-section_total-time {
+  min-width: 40px; 
+  height: 16px;
+  color: #fff;
+  margin: 4px;
+  padding: 2px 4px;
+  font-size: 12px;
+  border-radius: 2px;
+  line-height: 12px;
+  text-align: center;
+  background: rgba(0,0,0, 0.8);
+  margin-top: auto;
+  opacity: 0.9;
+}
+
+.video-section_watch-later {
+  display: none;
+  margin: 4px;
+  font-size: 18px;
+  color: white;
+  background: #111;
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+  opacity: 0.7;
+}
+
+.video-section_video-link:hover .video-section_watch-later {
+  display: block;
+}

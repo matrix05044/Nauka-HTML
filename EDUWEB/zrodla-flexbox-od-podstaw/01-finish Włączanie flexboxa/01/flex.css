@@ -1,0 +1,14 @@
+body {
+    display: flex;
+  
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+body > * {
+   flex-shrink: 1;
+}
+
+.card {
+
+}

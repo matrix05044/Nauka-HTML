@@ -1,0 +1,49 @@
+/* LoVe HAte nieodwiedzony link */
+a:link {
+    color: #FF0000;
+}
+
+/* odwiedzony link */
+a:visited {
+    color: #00FF00;
+}
+
+/* po najechaniu */
+a:hover {
+    color: #FF00FF;
+}
+
+/* aktywny */
+a:active {
+    color: #0000FF;
+}
+
+
+li:first-child {
+    background-color: beige; 
+}
+
+li:last-child {
+    background-color: beige; 
+}
+
+li:nth-child(3) {
+    background-color: bisque;
+}
+
+
+li:nth-child(3n+5) {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+

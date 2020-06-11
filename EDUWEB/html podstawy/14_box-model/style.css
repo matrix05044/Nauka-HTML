@@ -1,0 +1,25 @@
+@import url(reset.css);
+
+body {
+    color: white;
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid red;
+    margin: 20px;
+}
+
+.jeden {
+    background-color:  #045aa8;
+}
+.dwa {
+    background-color: #0389bd;
+}
+.trzy {
+    background-color: #4ccad7;
+}

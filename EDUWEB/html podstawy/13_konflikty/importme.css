@@ -1,0 +1,16 @@
+
+body {
+    background: #0389bd;
+    color: white;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 60px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 25px;
+    background-color:  dodgerblue;
+}

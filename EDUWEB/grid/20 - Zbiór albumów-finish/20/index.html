@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="lesson.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>CSS Grid</title>
+</head>
+<body>
+   <ul class="grid">
+     <li>
+       <figure>
+         <img src="https://source.unsplash.com/random/200x200?v1" alt="">
+         
+         <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+       </figure>
+     </li>
+     <li>
+       <figure>
+         <img src="https://source.unsplash.com/random/200x200?v2" alt="">
+         
+         <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+       </figure>
+     </li>
+     <li>
+       <figure>
+         <img src="https://source.unsplash.com/random/200x200?v3" alt="">
+         
+         <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+       </figure>
+     </li>
+     <li>
+       <figure>
+         <img src="https://source.unsplash.com/random/200x200?v4" alt="">
+         
+         <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+       </figure>
+     </li>
+     <li>
+        <figure>
+          <img src="https://source.unsplash.com/random/200x200?v5" alt="">
+          
+          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+        </figure>
+      </li>
+     <li>
+        <figure>
+          <img src="https://source.unsplash.com/random/200x200?v4" alt="">
+          
+          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+        </figure>
+      </li>
+     <li>
+        <figure>
+          <img src="https://source.unsplash.com/random/200x200?v3" alt="">
+          
+          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+        </figure>
+      </li>
+     <li>
+        <figure>
+          <img src="https://source.unsplash.com/random/200x200?v2" alt="">
+          
+          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+        </figure>
+      </li>
+     <li>
+        <figure>
+          <img src="https://source.unsplash.com/random/200x200?v1" alt="">
+          
+          <figcaption> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis fugit dolorem recusandae saepe quidem voluptatibus quaerat, incidunt, enim praesentium ad, vitae modi sunt debitis tempora vel pariatur dolores quos? </figcaption>
+        </figure>
+      </li>
+    </ul>
+   <style>
+     .grid {
+       display: grid;
+       
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       grid-gap: 20px;
+       
+       grid-template-columns: repeat(auto-fit, minmax(0, 400px));
+       
+       justify-content: center;
+     }
+     
+     .grid figure {
+       background: rgba(255,255,255, 0.1);
+       padding: 20px;
+       margin: 0;
+       
+       display: grid;
+       grid-gap: 20px;
+       justify-items: center;
+     }
+     
+     .grid img {
+       max-width: 100%;
+     }
+   </style>
+</body>
+</html>

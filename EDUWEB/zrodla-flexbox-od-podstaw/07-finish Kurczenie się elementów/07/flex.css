@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.card {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  
+  flex-basis: 100px;
+  flex-shrink: 1;
+}
+
+.card:nth-child(3) { 
+  flex-shrink: 2;
+}
+
+.card:nth-child(5) {
+  flex-shrink: 0;
+}

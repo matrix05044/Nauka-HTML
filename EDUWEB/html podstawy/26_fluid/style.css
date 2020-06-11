@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+  background: red;
+  height: 100px;
+    float: left;
+    margin: 1%;
+}
+
+#sek1 div {
+    width: 98%;
+}
+
+#sek2 div {
+    width: 48%
+}
+
+#sek3 div {
+    width: 31.333333%;
+}

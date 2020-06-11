@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+  background: red;
+  height: 100px;
+    float: left;
+    margin: 1%;
+    text-indent: -9999px;
+}
+
+#sek1 div {
+    width: 98%;
+}
+
+#sek2 div {
+    width: 48%
+}
+
+#sek3 div {
+    width: 31.333333%;
+}
+
+#sek2 {
+        display: none;   
+    }
+
+@media all and (max-width: 360px) {
+    
+    div {
+        background: #000;
+    }
+    
+    #sek2 {
+        display: block;   
+    }
+    
+    
+#sek3 div {
+    width: 98%;
+    }
+    
+}
+
+@media screen and (min-width: 361px) and (max-width: 768px) {
+    
+    div {
+        background: blue;
+    }
+    
+    #sek3 div {
+    width: 98%;
+    }
+    
+}
+
+

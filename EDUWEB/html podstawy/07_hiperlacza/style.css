@@ -1,0 +1,29 @@
+body {
+    font-family: "Arial";
+    background-color: aquamarine;
+    font-size: 1.7rem;
+    margin: 0;
+    
+    color: white;
+}
+
+section {
+    height: 900px;
+    padding: 40px;
+}
+
+#sekcja1 {
+    background: #3498db;
+}
+#sekcja2 {
+    background: #1abc9c;
+}
+
+#sekcja3 {
+    background: #2c3e50;
+}
+
+#sekcja4 {
+    background: #e74c3c;
+}
+

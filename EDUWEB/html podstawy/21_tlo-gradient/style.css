@@ -1,0 +1,8 @@
+body {
+    background-image: linear-gradient(
+        30deg,
+        yellow 30%,
+        blue
+    );
+    height: 100vh;
+}

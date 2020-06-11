@@ -1,0 +1,65 @@
+.card, .card * {
+  box-sizing: border-box;
+}
+
+body {
+  background: #0F111A;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  padding:0;
+  margin:0;
+  font-family: lato;
+  counter-reset: card;
+}
+
+.card {
+  counter-increment: card-number;
+} 
+
+.card_number::before {
+  font-weight: bold;
+  font-size: 38px;
+  content: counter(card-number);
+}
+
+
+.card {
+  width: 100px;
+  height: 150px;
+  background: red;
+  padding: 10px;
+  margin: 5px;
+}
+
+a:nth-child(2) {
+  background: orange;
+}
+
+
+a:nth-child(3) {
+  background: yellowgreen;
+}
+
+
+a:nth-child(4) {
+  background: yellow;
+  color: black;
+}
+
+a:nth-child(5) {
+  background: aqua;
+  color: black;
+}
+
+a:nth-child(6) {
+  background: white;
+  color: black;
+}
+
+a { text-decoration: none; color:white; }
+
+*:focus {
+  outline-color: #cb97ff;
+  outline-width: 15px;
+}

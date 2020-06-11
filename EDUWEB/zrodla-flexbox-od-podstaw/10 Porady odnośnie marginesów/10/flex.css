@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.card {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  
+  flex-basis: 100px;
+  order: 0;
+}

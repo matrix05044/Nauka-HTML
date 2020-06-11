@@ -1,0 +1,45 @@
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    height: 1000px;
+
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    margin: 5px;
+
+
+
+}
+
+.block1 {
+    background-color: coral;
+}
+
+.block2 {
+    background-color: red;
+    align-self: flex-end;
+}
+
+.block3 {
+    background-color: blue;
+}
+
+.block4 {
+    background-color: green;
+}
+
+.block5 {
+    background-color: yellow;
+}
+
+.block6 {
+    background-color: grey;
+}

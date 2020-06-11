@@ -1,0 +1,30 @@
+body {
+  background: #0F111A;
+  color: white;
+  min-height: 95vh;
+  width: calc(95vw - 40px);
+  padding: 0 20px;
+  margin: 0 auto;
+  font-family: 'lato';
+}
+
+:root {
+  --orange: orange;
+  --green: yellowgreen;
+  --yellow: yellow;
+  --blue: aqua;
+  --purple: rebeccapurple;
+}
+
+.item {
+  background: var(--yellow);
+  color: black;
+  font-family: 'lato';
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.item:nth-child(2n) {
+  background: var(--green);
+}

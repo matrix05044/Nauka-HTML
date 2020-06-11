@@ -1,0 +1,17 @@
+/* section {
+    background-image: url('pexels-photo-large.jpeg');
+    height: 400px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: aqua;
+}  */
+
+section {
+    height: 400px;
+    width: 200px;
+    background: aqua url('pexels-photo-large.jpeg') no-repeat center center;
+}
+
+

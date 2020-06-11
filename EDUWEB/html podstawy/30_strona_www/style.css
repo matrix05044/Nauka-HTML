@@ -1,0 +1,239 @@
+@import url(reset.css);
+@import url(ramka.css); 
+
+
+html {
+    background: #ffc107 url(assets/tlo.jpg) fixed no-repeat;
+    background-size: contain;
+    font-size: 62.5%;
+    font-family: 'Playfair Display', serif;
+    color: color: #48504e;
+}
+
+.orange { color: #ffc107; }
+.grey { color: #48504e; }
+.lightgrey { color: #d4d4d3; }
+
+h1 {
+    font-size: 3.7rem; 
+    background-color: rgba(255, 255, 255, .9);
+    padding: 3.5rem;
+    margin: 4.0rem;
+    display: inline-block;
+    border-top-left-radius: 2.0rem;
+}
+
+h2 { font-size: 2.7rem; }
+
+h3 { font-size: 3.1rem; }
+
+h3, h2 { 
+    color: #fff; 
+    background-color: #48504e;
+    padding: 1.5rem;
+    display: inline-block;
+}
+
+h4 {
+    font-size: 2rem;
+    padding: 2rem 1rem;
+}
+
+p { font-size: 1.8rem; line-height: 1.55; }
+
+ul { font-size: 2.3rem; line-height: 1.75;  }
+
+footer p { font-size: 1.4rem; color: #d4d4d3;}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.summary { 
+    font-size: 2.4rem;
+    font-style: italic;
+}
+
+.dot {
+    width: 1rem;
+    height: 1rem;
+    background-color: #48504e;
+    margin: 3rem auto;
+    border-radius: 2rem;
+}
+
+.deleted {
+    text-decoration: line-through;
+}
+
+.button-more {
+    display: inline-block;
+    border: 1px dashed #000;
+    font-size: 3rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+}
+
+header {
+    display: none;
+    background: #48504e;
+    color: #fff;
+    height: 30rem;
+    padding: 10rem;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    text-align: right;
+    background: url(assets/strzalka.svg) right no-repeat;
+    padding-right: 4rem;
+    line-height: 1.5rem;
+    margin: 3rem;
+}
+
+form {
+    float: left;
+    width: 45rem;
+}
+
+input, textarea {
+    width: 35rem;
+    background: none;
+    border: 2px #d4d4d3 solid;
+    margin: .5rem;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+button {
+    background: #ffc107;
+    border: none;
+    padding: 2rem 6rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+    margin-top: -1.5rem;
+    margin-right: -3rem;
+}
+
+
+.menu {
+    background: #fff url(assets/menu.svg) center no-repeat;
+    padding: 1rem;
+    margin: 1rem;
+    height: 3.2rem;
+    position: fixed;
+    width: 3.2rem;
+    right: 0;
+    z-index: 9999;
+}
+
+.hoverme:hover header {
+    display: block;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    background: #fff;
+    z-index: 6;
+}
+
+section {
+    width: 50%;
+    min-width: 600px;
+    max-width: 850px;
+    position: absolute;
+    right: 5%;
+}
+
+article {
+    margin-bottom: 6rem;
+}
+
+hgroup {
+    margin-left: -25%;
+    position: relative;
+    display: inline-block;
+}
+
+h3 {
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+}
+
+figure {
+    margin-left: -25%;
+    margin-top: 20%;
+    float: left;
+}
+
+.text {
+    padding-top: 4rem;
+    column-count: 2;
+}
+
+
+@media all and (max-width: 1280px) {
+    
+    html {
+         background: #ffc107;
+    }
+    section {
+        width: 75%;
+    }
+    
+    .bg {
+        background: url(assets/bg.jpg) fixed no-repeat;
+        height: 300px;
+    }
+    
+}
+
+@media all and (max-width: 768px) {
+    hgroup {
+    margin-left: 0;
+}
+    figure {
+        display: none;
+    }
+    section {
+    width: 90%;
+    min-width: 300px;
+    right: 5%;
+}
+    .text {
+    column-count: 1;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
