@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1300px;
+    background-color: rosybrown;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 300px;
+}
+
+.block {
+
+
+    background-color: red;
+    border: 2px solid black;
+
+
+}
