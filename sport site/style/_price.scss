@@ -1,0 +1,67 @@
+.prices {
+    h2 {
+        font-size: 8rem;
+        text-align: center;
+        position: relative;
+        top: -15rem;
+
+        span {
+            color: orange;
+        }
+
+    }
+
+    .price-plan {
+        width: 60%;
+        background-color: orange;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding: 8rem 0;
+
+
+        .card {
+            width: 33.33333%;
+            text-align: center;
+            border-left: 1px solid white;
+
+            &:first-child {
+                border: none;
+            }
+
+            h3 {
+                font-size: 2.5rem;
+                margin-bottom: 6rem;
+                font-weight: 300;
+            }
+
+            span,
+            p {
+                font-size: 7em;
+                font-weight: 900;
+                color: white;
+            }
+
+            p {
+                font-weight: normal;
+                margin: 2rem 0 6rem 0;
+            }
+
+            button {
+                width: 70%;
+                height: 5rem;
+                background-color: white;
+                border: none;
+                font-size: 2rem;
+                font-weight: 900;
+                transition: background-color 0.2s, color 0.2s;
+
+                &:hover {
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+    }
+
+}

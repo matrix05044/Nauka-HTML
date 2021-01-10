@@ -1,0 +1,145 @@
+@mixin xd {
+    @extend .socials;
+}
+
+html {
+    font-size: 62.5%;
+
+    body {
+
+        .wrapper {
+            font-family: 'Roboto', sans-serif;
+
+
+            .container {
+                background: url("../../images/banner.jpg") no-repeat center;
+                background-size: cover;
+                min-height: 80vh;
+                width: 100%;
+
+                header {
+                    width: 60%;
+                    margin: 0 auto;
+                    padding-top: 1rem;
+
+                    nav {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-bottom: 1px solid orange;
+                        padding: 0 1rem 2rem;
+
+                        ul {
+                            list-style-type: none;
+                        }
+
+                        .logo {
+                            width: 25rem;
+                            height: 5.5rem;
+
+                            img {
+                                min-width: 100%;
+                                height: 100%;
+                            }
+                        }
+
+                        .socials {
+                            display: flex;
+                            justify-items: center;
+
+                            li {
+                                width: 4rem;
+                                height: 4rem;
+                                border: 1px solid black;
+                                border-radius: 50%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-right: 4rem;
+
+                                transition: background-color .5s, border .5s;
+
+                                a {
+                                    font-size: 1.5rem;
+                                }
+
+                                i {
+                                    color: black;
+                                }
+
+                                &:hover {
+                                    background-color: orange;
+                                    border: 1px solid orange;
+                                }
+
+                                &:hover>a>i {
+                                    color: white;
+                                }
+
+
+                            }
+                        }
+
+                        .search {
+                            display: flex;
+
+                            li {
+                                margin-right: 4rem;
+
+                            }
+                        }
+
+
+                    }
+
+                    .section-header {
+                        padding: 5rem 2rem;
+
+                        h1 {
+                            font-size: 12rem;
+                            font-weight: 300;
+                            margin-bottom: 0px;
+
+                            .dsport {
+                                font-size: 22rem;
+                                font-weight: 900;
+                                line-height: 0.8;
+                                display: inline-block;
+
+                                &::first-letter {
+                                    color: orange;
+                                }
+
+                            }
+                        }
+
+                        .subtitle {
+                            font-size: 2.3rem;
+                        }
+
+                        .readMore {
+                            background-color: transparent;
+                            border: 1px solid black;
+                            width: 20rem;
+                            height: 6rem;
+                            font-size: 2rem;
+                            transition: color 0.2s, background-color 0.2s;
+
+                            &:hover {
+                                color: white;
+                                background-color: black;
+                            }
+
+                            i {
+                                margin-left: 1rem;
+                            }
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+    }
+}

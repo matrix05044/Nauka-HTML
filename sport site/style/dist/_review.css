@@ -1,0 +1,16 @@
+.review {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.review h2 {
+  font-size: 7rem;
+  color: orange;
+}
+.review h3 {
+  color: orange;
+  font-size: 1.8rem;
+}
+.review p {
+  font-size: 1.7rem;
+}

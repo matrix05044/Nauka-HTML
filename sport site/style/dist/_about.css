@@ -1,0 +1,154 @@
+html {
+  font-size: 62.5%;
+}
+html body .wrapper {
+  font-family: "Roboto", sans-serif;
+}
+html body .wrapper .container {
+  background: url("../../images/banner.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 80vh;
+  width: 100%;
+}
+html body .wrapper .container header {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+html body .wrapper .container header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid orange;
+  padding: 0 1rem 2rem;
+}
+html body .wrapper .container header nav ul {
+  list-style-type: none;
+}
+html body .wrapper .container header nav .logo {
+  width: 25rem;
+  height: 5.5rem;
+}
+html body .wrapper .container header nav .logo img {
+  min-width: 100%;
+  height: 100%;
+}
+html body .wrapper .container header nav .socials {
+  display: flex;
+  justify-items: center;
+}
+html body .wrapper .container header nav .socials li {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4rem;
+  transition: background-color 0.5s, border 0.5s;
+}
+html body .wrapper .container header nav .socials li a {
+  font-size: 1.5rem;
+}
+html body .wrapper .container header nav .socials li a:link {
+  color: black;
+}
+html body .wrapper .container header nav .socials li:hover {
+  background-color: orange;
+  border: 1px solid orange;
+}
+html body .wrapper .container header nav .socials li:hover > a:link {
+  color: white;
+}
+html body .wrapper .container header nav .search {
+  display: flex;
+}
+html body .wrapper .container header nav .search li {
+  margin-right: 4rem;
+}
+html body .wrapper .container header .section-header {
+  padding: 5rem 2rem;
+}
+html body .wrapper .container header .section-header h1 {
+  font-size: 12rem;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+html body .wrapper .container header .section-header h1 .dsport {
+  font-size: 22rem;
+  font-weight: 900;
+  line-height: 0.8;
+  display: inline-block;
+}
+html body .wrapper .container header .section-header h1 .dsport::first-letter {
+  color: orange;
+}
+html body .wrapper .container header .section-header .subtitle {
+  font-size: 2.3rem;
+}
+html body .wrapper .container header .section-header .readMore {
+  background-color: transparent;
+  border: 1px solid black;
+  width: 20rem;
+  height: 6rem;
+  font-size: 2rem;
+  transition: color 0.2s, background-color 0.2s;
+}
+html body .wrapper .container header .section-header .readMore:hover {
+  color: white;
+  background-color: black;
+}
+html body .wrapper .container header .section-header .readMore i {
+  margin-left: 1rem;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+  width: 60%;
+}
+.categories .category {
+  min-width: 20rem;
+  max-width: 100%;
+  height: 9rem;
+  font-size: 1.9rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.categories .category:nth-child(even) {
+  background-color: orange;
+}
+.categories .category h3 {
+  font-weight: 300;
+}
+
+main {
+  display: flex;
+  margin-top: 3rem;
+}
+main .about {
+  background: url("../../images/img.png") no-repeat right;
+}
+main .about .section-about {
+  text-align: right;
+  padding-top: 29rem;
+  padding-right: 30rem;
+}
+main .about .section-about h2 {
+  font-size: 5.2rem;
+  color: white;
+}
+main .about .section-about h2 span {
+  color: orange;
+}
+main .about .section-about p {
+  font-size: 2rem;
+  line-height: 1.8;
+}

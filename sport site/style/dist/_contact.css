@@ -1,0 +1,190 @@
+html {
+  font-size: 62.5%;
+}
+html body .wrapper {
+  font-family: "Roboto", sans-serif;
+}
+html body .wrapper .container {
+  background: url("../../images/banner.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 80vh;
+  width: 100%;
+}
+html body .wrapper .container header {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+html body .wrapper .container header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid orange;
+  padding: 0 1rem 2rem;
+}
+html body .wrapper .container header nav ul {
+  list-style-type: none;
+}
+html body .wrapper .container header nav .logo {
+  width: 25rem;
+  height: 5.5rem;
+}
+html body .wrapper .container header nav .logo img {
+  min-width: 100%;
+  height: 100%;
+}
+html body .wrapper .container header nav .socials {
+  display: flex;
+  justify-items: center;
+}
+html body .wrapper .container header nav .socials li {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4rem;
+  transition: background-color 0.5s, border 0.5s;
+}
+html body .wrapper .container header nav .socials li a {
+  font-size: 1.5rem;
+}
+html body .wrapper .container header nav .socials li a:link {
+  color: black;
+}
+html body .wrapper .container header nav .socials li:hover {
+  background-color: orange;
+  border: 1px solid orange;
+}
+html body .wrapper .container header nav .socials li:hover > a:link {
+  color: white;
+}
+html body .wrapper .container header nav .search {
+  display: flex;
+}
+html body .wrapper .container header nav .search li {
+  margin-right: 4rem;
+}
+html body .wrapper .container header .section-header {
+  padding: 5rem 2rem;
+}
+html body .wrapper .container header .section-header h1 {
+  font-size: 12rem;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+html body .wrapper .container header .section-header h1 .dsport {
+  font-size: 22rem;
+  font-weight: 900;
+  line-height: 0.8;
+  display: inline-block;
+}
+html body .wrapper .container header .section-header h1 .dsport::first-letter {
+  color: orange;
+}
+html body .wrapper .container header .section-header .subtitle {
+  font-size: 2.3rem;
+}
+html body .wrapper .container header .section-header .readMore {
+  background-color: transparent;
+  border: 1px solid black;
+  width: 20rem;
+  height: 6rem;
+  font-size: 2rem;
+  transition: color 0.2s, background-color 0.2s;
+}
+html body .wrapper .container header .section-header .readMore:hover {
+  color: white;
+  background-color: black;
+}
+html body .wrapper .container header .section-header .readMore i {
+  margin-left: 1rem;
+}
+
+.contact {
+  width: 70rem;
+  position: absolute;
+  left: 20rem;
+  z-index: 12;
+}
+.contact h2 {
+  font-size: 7rem;
+}
+.contact h2 span {
+  color: orange;
+}
+.contact .form {
+  display: flex;
+}
+.contact .form form {
+  width: 70%;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  padding: 8rem 5rem;
+}
+.contact .form form input,
+.contact .form form textarea {
+  margin-bottom: 3rem;
+}
+.contact .form form > * {
+  border: none;
+  font-size: 1.6rem;
+  padding: 0 2rem;
+}
+.contact .form form input {
+  height: 4rem;
+}
+.contact .form form textarea {
+  height: 6rem;
+}
+.contact .form form button {
+  width: 20rem;
+  height: 5rem;
+}
+
+.mapa .mapouter {
+  height: 40rem;
+  position: static !important;
+  margin-top: 25rem;
+}
+
+footer {
+  margin: 10rem 0 0;
+  padding: 0 15rem;
+  display: flex;
+  justify-content: space-between;
+  height: 7rem;
+  align-items: center;
+  background-color: orange;
+}
+footer .socials {
+  display: flex;
+  justify-items: center;
+}
+footer .socials li {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4rem;
+  transition: background-color 0.5s, border 0.5s;
+}
+footer .socials li a {
+  font-size: 1.5rem;
+}
+footer .socials li i {
+  color: white;
+}
+footer .socials li:hover {
+  background-color: black;
+  border: 1px solid black;
+}
+footer .socials li:hover > a > i {
+  color: orange;
+}
